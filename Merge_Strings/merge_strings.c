@@ -44,10 +44,11 @@ char * mergeAlternately(char * word1, char * word2)
     merged[i] = '\0';
     return(merged);
 }
-
+/*
 int     main(void)
 {
     char *teste1 = "abc";
     char *teste2 = "pqr";
     printf("%s", mergeAlternately(teste1,teste2));
 }
+*/
