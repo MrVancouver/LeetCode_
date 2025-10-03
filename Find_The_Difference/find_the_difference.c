@@ -23,6 +23,7 @@ char findTheDifference(char* s, char* t)
     return(sumT - sumS);
 
 }
+/*
 #include <stdio.h>
 int main()
 {
@@ -31,3 +32,4 @@ int main()
 
     printf("%c", findTheDifference(str1,str2));
 }
+*/
