@@ -13,8 +13,13 @@ bool repeatedSubstringPattern(char* s)
     return strstr(copy + 1, s);
 }
 
+// i had no ideia how to do this
+// but i looked for the solution and got it now
+// thanks Vignesh(https://leetcode.com/u/vickyy234/)
+/*
 int main(void)
 {
     char str[] = "jaajaajaajaa";
     printf("%s",repeatedSubstringPattern(str) ? "true" : "false");
 }
+*/
