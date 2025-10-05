@@ -48,10 +48,13 @@ bool isAnagram(char* s, char* t)
         return(false);
     return(true);
 }
-
+// i made with bubble sort
+// it works but with big tests will take so longer
+/*
 int main(void)
 {
     char txt1[] = "teste";
     char txt2[] = "setet";
     printf("%s\n",isAnagram(txt1,txt2) ? "true" : "false");
 }
+*/
